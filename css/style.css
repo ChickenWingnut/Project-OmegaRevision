@@ -1,8 +1,4 @@
-body{
-    background:linear-gradient(
-            rgba(122, 0, 25, 0.5),
-            rgba(122, 0, 25, 0.5))
-  }
+
 /*#region HEXAGRID */
 /*#region Shapes,UI*/
 #hexGrid {
@@ -123,11 +119,9 @@ body{
 /*#region HEXAGON SIZING AND EVEN ROW INDENTATION*/
 
 /*#endregion*/
-/*#endregion*/
 
 /*#region Bootstrap Tweaks*/
 .fw-bold{
-  color: $primary;
   margin-bottom: 20px;
 }
 .modal-header{
@@ -135,24 +129,4 @@ body{
 }
 .modal-header h1{
   color: #7a0019
-}
-
-.card{
-  width: 18rem;
-}
-#cards{
-  width: 70%;
-}
-/*#endregion*/
-
-/*Homepage*/
-#Title{
-  color: #ffcc33;
-}
-p b{ /* This turns all bolded text maroon*/
-  color: #7a0019;
-}
-
-.box{/*Shades sections and boxes for publish/research modals*/
-    background-color: #f0efee;
 }
