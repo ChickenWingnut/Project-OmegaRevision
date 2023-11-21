@@ -1,5 +1,5 @@
 
-/*#region HEXAGRID */
+/* HEXAGRID */
 /*#region Shapes,UI*/
 #hexGrid {
     display: flex;
@@ -117,13 +117,17 @@
 /*#endregion*/  
   
 /*#region HEXAGON SIZING AND EVEN ROW INDENTATION*/
-
+/* normally there would be formatting here using media queries but since the content will be view on a laptop or so we assume, it will just have the settings adjusted directly in other css classes */
 /*#endregion*/
 
-/*#region Bootstrap Tweaks*/
-.fw-bold{
-  margin-bottom: 20px;
+.middleHex{
+  background-image: url(../Assets/project_omega_logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
 .modal-header{
   background-color: #ffcc33;
 }
