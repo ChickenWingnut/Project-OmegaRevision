@@ -134,3 +134,14 @@
 .modal-header h1{
   color: #7a0019
 }
+
+/* misc */
+.publication{
+  list-style: none;
+}
+.publication li{
+  padding: 0.25rem;
+}
+.publication li:nth-child(even){
+  background-color: rgba(0,0,0,0.3);
+}
