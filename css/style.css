@@ -134,6 +134,18 @@
 .modal-header h1{
   color: #7a0019
 }
+/* Format */
+.sidebar{
+  background-color: lightgray;
+}
+figure{
+  display: inline-grid;
+  grid-template-rows: auto;
+}
+figcaption{
+  width: 0;
+  min-width: 100%;
+}
 
 /* misc */
 .publication{
