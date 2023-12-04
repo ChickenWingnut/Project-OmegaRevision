@@ -131,6 +131,9 @@ body{
 .modal-header h1{
   color: #7a0019
 }
+.modal-body{
+  background-image: url(../Assets/bg-plain.png);
+}
 /* Format */
 .sidebar{
   background-color: lightgray;
