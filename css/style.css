@@ -74,7 +74,7 @@
     width: 100%;
     padding: 5%;
     box-sizing:border-box;
-    background-color: #7a0019;
+    background-image: url(../Assets/bg.png);
     opacity: 0.7;
     font-weight: 300;
     -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
@@ -121,6 +121,9 @@
 /*#endregion*/
 
 
+body{
+  background:url(../Assets/bg.png);
+}
 
 .modal-header{
   background-color: #ffcc33;
@@ -140,9 +143,6 @@ figcaption{
   width: 0;
   min-width: 100%;
 }
-/* banana */
-
-/* misc */
 .publication{
   list-style: none;
 }
