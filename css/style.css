@@ -135,6 +135,10 @@ body{
   background-image: url(../Assets/bg-plain.png);
 }
 /* Format */
+/* .content{
+  background-color: rgba(0,0,0, 0.5);
+} */
+
 .sidebar{
   background-color: lightgray;
 }
@@ -146,15 +150,18 @@ figcaption{
   width: 0;
   min-width: 100%;
 }
-.publication{
-  list-style: none;
-}
 .publication li{
   padding: 0.25rem;
 }
 .publication li:nth-child(even){
   background-color: rgba(0,0,0,0.3);
 }
+/* .list-group{
+  background: lightgray;
+} */
+/* .list-group-item:hover{
+  background-color: #ffcc33;
+} */
 a{
   cursor:pointer;
 }

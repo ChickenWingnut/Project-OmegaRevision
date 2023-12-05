@@ -127,18 +127,11 @@
     <!-- MODALS -->
     <!-- iNTERACTION CODONOMICS -->
     <div
-      class="modal fade"
-      id="Interaction"
-      data-bs-backdrop="static"
-      data-bs-keyboard="false"
-      tabindex="-1"
-      aria-labelledby="staticBackdropLabel"
-      aria-hidden="true"
+      class="modal fade" id="Interaction" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"
     >
       <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
-          <div class="modal-header">
-            <!-- <h1 class="modal-title fs-5" id="staticBackdropLabel">Interaction Codonomics</h1> -->
+          <div class="modal-header shadow">
             <ul class="nav nav-underline" id="modals">
               <li class="nav-item">
                 <a
@@ -201,17 +194,15 @@
           </div>
           <div class="modal-body">
             <div class="row justify-content-between">
-              <div class="col px-5">
-                <ul class="nav nav-underline sticky-top py-5" id="navi">
-                  <li class="nav-item text-wrap">
-                    <a href="#sub-1" class="nav-link">Sub-1 a;lsdkjfa;lksjdfa;slkdjfa;kljd</a>
-                    <a href="#sub-2" class="nav-link">Sub-2</a>
-                    <a href="#sub-3" class="nav-link">Sub-3</a>
-                  </li>
-                  <div class="vr"></div>
+              <!-- Content Bar -->
+              <div class="col px-5 content">
+                <ul class="list-group sticky-top list-unstyled py-5">
+                    <a href="#sub-1" class="list-group-item list-group-item-action">Sub-1 a;lsdkjfa;lksjdfa;slkdjfa;kljd</a>
+                    <a href="#sub-2" class="list-group-item list-group-item-action">Sub-2</a>
+                    <a href="#sub-3" class="list-group-item list-group-item-action">Sub-3</a>
                 </ul>
               </div>
-              <div class="container col-6 m-0">
+              <div class="container col-6 m-0 content">
                   <h2 id="sub-1">Subtitle 1</h2>
                   <hr />
                   <div class="clearfix">
@@ -324,10 +315,11 @@
                     <li><a href="">publication 6</a></li>
                   </ul>
               </div>
-              <div class="col-3">
-                <div class="col-8 mx-auto p-3 rounded-3 sidebar">
+              <!-- sidebar -->
+              <div class="col-3 py-5 content">
+                <div class="col-8 mx-auto rounded-3 p-3 sidebar">
                   <h4>Vocab</h4>
-                  <ul>
+                  <ul class="list-unstyled">
                     <li>
                       <p><b>word 1:</b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, corrupti.</p>
                     </li>
