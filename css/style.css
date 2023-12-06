@@ -81,13 +81,14 @@
             transition:          transform .2s ease-out, opacity .3s ease-out;
   }
   .hex h1 {
-    bottom: 50%;
     padding-top:50%;
+    padding-bottom:50%;
     font-size: 1.5em;
     z-index: 1;
-    -webkit-transform:translate3d(0,-100%,0);
+    
+    /* -webkit-transform:translate3d(0,-100%,0);
         -ms-transform:translate3d(0,-100%,0);
-            transform:translate3d(0,-100%,0);
+            transform:translate3d(0,-100%,0); */
   }
   .hex h1::after {
     content: '';
@@ -98,21 +99,14 @@
     text-align: center;
     border-bottom: 1px solid #ffcc33;
   }
-  .hex p {
-    top: 50%;
-    padding-bottom:50%;
-    -webkit-transform:translate3d(0,100%,0);
-        -ms-transform:translate3d(0,100%,0);
-            transform:translate3d(0,100%,0);
-  }
 /*#endregion*/ 
   
 /*#region HOVER EFFECT*/
   .hexLink:hover h1, .hexLink:focus h1,
   .hexLink:hover p, .hexLink:focus p{
-    -webkit-transform:translate3d(0,0,0);
-        -ms-transform:translate3d(0,0,0);
-            transform:translate3d(0,0,0);
+    /* -webkit-transform:translate3d(0,50%,0);
+        -ms-transform:translate3d(0,50%,0);
+            transform:translate3d(0,50%,0); */
   }
 /*#endregion*/  
   
